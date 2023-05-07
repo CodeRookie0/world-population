@@ -16,8 +16,6 @@ In the process of creating this program, I trained my skills of working with fil
 
 ## Screenshots
 ![Console](Console_world_pop.png)
-![Data](Data_world_pop.png)
-
 ![Chart1](Chart1_world_pop.png)
 ![Chart2](Chart2_world_pop.png)
 ![Chart3](Chart3_world_pop.png)
