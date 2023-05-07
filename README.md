@@ -15,11 +15,11 @@ In the process of creating this program, I trained my skills of working with fil
 
 
 ## Screenshots
-![Console](https://raw.github.com/CodeRookie0/world-population/main/main/Console_world_pop.png)
-![Data](https://raw.githubusercontent.com/CodeRookie0/world-population/main/Data_world_pop.png?token=GHSAT0AAAAAACCIXD2VHCNEB4QRRGALY6PKZCXYPBQ)
+![Console](Console_world_pop.png)
+![Data](Data_world_pop.png)
 
-![Chart1](https://raw.githubusercontent.com/CodeRookie0/world-population/main/Chart1_world_pop.png?token=GHSAT0AAAAAACCIXD2UJUKMKOKEZS6XQRRCZCXYP5Q)
-![Chart2](https://raw.githubusercontent.com/CodeRookie0/world-population/main/Chart2_world_pop.png?token=GHSAT0AAAAAACCIXD2UQUWBN4OS7NPMFUCWZCXYQEQ)
-![Chart3](https://raw.githubusercontent.com/CodeRookie0/world-population/main/Chart3_world_pop.png?token=GHSAT0AAAAAACCIXD2VJULDOHW6BDLRMZQWZCXYQLQ)
-![Results](https://raw.githubusercontent.com/CodeRookie0/world-population/main/Results_world_pop.png?token=GHSAT0AAAAAACCIXD2V57SZG7M3QLKFOLP2ZCXYQRQ)
+![Chart1](Chart1_world_pop.png)
+![Chart2](Chart2_world_pop.png)
+![Chart3](Chart3_world_pop.png)
+![Results](Results_world_pop.png)
 
