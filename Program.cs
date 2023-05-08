@@ -16,21 +16,29 @@ namespace Projekt
     class PopulationStatistics
     {
         //Private fields (variables) of the class, used in the ReadFile function
-        private List<string[]> DataBase = new List<string[]>();  //List of population data from the file
-        private string[] columnNames = new string[15];           //Array of column names for the data in the DataBase list
+        List<string[]> DataBase = new List<string[]>();  //List of population data from the file
+        string[] columnNames = new string[15];           //Array of column names for the data in the DataBase list
 
         //Private fields (variables) of the class for calculations on data from the file
-        private string[] continentName = new string[6] { "Asia", "Africa", "SouthAmerica", "NorthAmerica", "Europe", "Oceania" };
-        private double[,] continentPopulation1970To2022 = new double[6, 8];
-        private double[] changeInPopulation1970To2022 = new double[6];
-        private double[] changeInPopulation2020To2022 = new double[6];
-        private double[] percentPopulationShareWorld = new double[6];
-        private double worldPopulation2022;
+        string[] continentName = new string[6] { "Asia", "Africa", "SouthAmerica", "NorthAmerica", "Europe", "Oceania" };
+        double[,] continentPopulation1970To2022 = new double[6, 8];
+        double[] changeInPopulation1970To2022 = new double[6];
+        double[] changeInPopulation2020To2022 = new double[6];
+        double[] percentPopulationShareWorld = new double[6];
+        double worldPopulation2022;
 
         //File path names
-        private string fileNameToRead;       //Path to the file to be read
-        private string fileNameExcel;  //Path name for creating an Excel file
-        private string fileNameToSave; //Path to the file to be saved
+        string fileNameToRead;       //Path to the file to be read
+        string fileNameExcel;        //Path name for creating an Excel file
+        string fileNameToSave;       //Path to the file to be saved
+        
+        // Default constructor
+        public PopulationStatistics()
+        {
+            fileNameToRead = "World Population.txt";
+            fileNameExcel = "ProjectCharts.xlsx";
+            fileNameToSave="Results.txt";
+        }
 
         // Constructor that takes the file paths as an argument
         public PopulationStatistics(string file_name, string file_name_excel, string file_name_toSave)
